@@ -1,0 +1,26 @@
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px black solid;
+}
+
+nav{
+    background-color: red;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+main p{
+    /*
+    align-items: center;
+    align-content: center;
+    */
+    text-align: center;
+}

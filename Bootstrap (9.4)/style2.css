@@ -1,0 +1,42 @@
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+nav{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+
+main p{
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+}
+
+.color1 {
+    background-color: black;
+    color: white;
+}
+
+.color1 a{
+    background-color: black;
+    color: white;
+}
+
+.color2 {
+    background-color: white;
+    color:black;
+}

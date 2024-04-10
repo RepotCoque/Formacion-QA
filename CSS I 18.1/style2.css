@@ -1,0 +1,35 @@
+html
+{
+    font-family:verdana;
+    color: white;
+    background-color: burlywood;
+}
+.box1, .box2, .box3
+{
+    margin:15px;
+    padding:15px;
+    border-radius: 10px;
+    width:fit-content;
+    height:fit-content;
+    border:3px solid black;
+}
+#body, #body2, #body3
+{
+    padding:15px;
+    margin-right:100px;
+}
+body2 img
+{
+    width: 100px;
+    height: 100px;
+}
+main
+{
+    display:flex;
+}
+.body3
+{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}

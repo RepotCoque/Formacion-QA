@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo en Terrassa</title>
+    <link rel="icon" href="icono-tiempo.png" type="icono-tiempo.png">
+    <style>
+
+        body{
+            background-color: skyblue;
+        }
+
+        header{
+            border-bottom-color: black;
+            border-bottom-left-radius: 5pc;
+            
+        }
+
+        #print {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #persona {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            box-shadow: 0 10px 20px 0 black;
+            border-radius: 10px;
+            margin: 15px;     
+        }
+    </style>
+</head>
+<header>
+    <h1><b>Tiempo en Terrassa</b></h1>
+</header>
+    <h2>Tiempo en Terrassa</h2>
+    <button onclick="llamarAPI()">Ver el Tiempo</button>
+    <div id="print"></div>
+</body>
+<script src="./demo.js"></script>
+</html>

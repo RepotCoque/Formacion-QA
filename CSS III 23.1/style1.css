@@ -1,0 +1,28 @@
+div1
+{
+    display: flexbox;
+}
+div2
+{
+    display: flex;
+    background-color:rgba(255, 0, 0, 0.954);
+    border-radius: 7px;
+    width:70%;
+    justify-content: space-between;
+    height: 40px;
+    padding: 7px;
+    width:70%;
+    height:fit-content;
+}
+div
+{
+    margin-top: 15px;
+    display:flex;
+    padding:10px;
+    width:100%;
+    height:fit-content;
+    border-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}

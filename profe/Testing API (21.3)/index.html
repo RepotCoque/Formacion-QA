@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #print {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #persona {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            box-shadow: 0 10px 20px 0 black;
+            border-radius: 10px;
+            margin: 15px;     
+        }
+    </style>
+</head>
+    <h2>API Star Wars</h2> 
+    <img 
+    width="700px"
+    height="700px"
+    src="https://www.diariodenavarra.es/uploads/2022/05/03/6270ea60e7d66.jpeg" alt="">
+    <br>
+    <button onclick="llamarAPI()">Generar ficha especie</button>
+    <div id="print"></div>
+</body>
+<script src="./demo.js"></script>
+</html>

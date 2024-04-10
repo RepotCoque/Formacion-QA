@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichas de personas</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #print {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #print1 {
+            display: flex;
+            justify-content:baseline;
+            flex-wrap: wrap;
+        }
+
+        #persona {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            box-shadow: 0 10px 20px 0 black;
+            border-radius: 10px;
+            margin: 15px;
+            background-color: white; 
+        }
+    </style>
+</head>
+<body>
+    <button onclick="llamarAPI()">Generar ficha</button>
+    <!-- <button id="restarButton">Restart API</button> -->
+    <div id="print">
+    <div id="print1"></div></div> 
+</body>
+<script src="./demo.js"></script>
+<!-- <script src="./resetbutton.js"></script> -->
+</html>
